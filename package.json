@@ -2,10 +2,10 @@
   "name": "first-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "webpack-dev-server --inline --content-base .",
     "prod": "NODE_ENV=production node index.js",
     "postinstall": "webpack -p"
   },
@@ -14,7 +14,8 @@
   "license": "BSD-3",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
     "babel-core": "^6.23.1",
