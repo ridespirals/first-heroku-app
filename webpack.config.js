@@ -1,5 +1,5 @@
 module.exports = {
-    entry: [ './index.js' ],
+    entry: './index.js',
     output: {
         path: __dirname,
         publicPath: '/',
@@ -14,6 +14,7 @@ module.exports = {
         }]
     },
     resolve: {
-        extensions: [ '', '.js', '.jsx']
+        extensions: [ '.js', '.jsx' ]
     }
 }
+
