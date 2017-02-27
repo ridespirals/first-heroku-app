@@ -1,18 +1,19 @@
 {
   "name": "first-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple react app for testing heroku",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "webpack-dev-server --inline --content-base .",
     "prod": "NODE_ENV=production node index.js",
-    "postinstall": "webpack -p"
+    "postinstall": ""
   },
   "keywords": [],
   "author": "",
-  "license": "BSD-3",
+  "license": "BSD-3-Clause",
+  "repository": "https://github.com/ridespirals/first-heroku-app.git",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
