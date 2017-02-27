@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline --content-base .",
+    "start": "node server.js",
+    "dev": "webpack-dev-server --inline --content-base .",
     "prod": "NODE_ENV=production node index.js",
     "postinstall": "webpack -p"
   },
