@@ -2,11 +2,11 @@
   "name": "first-app",
   "version": "1.0.0",
   "description": "Simple react app for testing heroku",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "webpack-dev-server --inline --content-base .",
+    "start": "node src/server.js",
+    "dev": "webpack-dev-server --inline --content-base build",
     "prod": "NODE_ENV=production node index.js",
     "postinstall": ""
   },
