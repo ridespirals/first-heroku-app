@@ -5,7 +5,6 @@
   "main": "src/server.js",
   "scripts": {
     "test": "jest",
-    "prestart": "jest",
     "dev": "webpack-dev-server --inline --content-base build",
     "start": "node src/server.js"
   },
